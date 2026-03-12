@@ -60,12 +60,12 @@ export default function ContactPage() {
               <div className="contact-card">
                 <span className="contact-label">GitHub</span>
                 <a
-                  href="https://github.com/yajanmehta"
+                  href="https://github.com/yajan08"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  github.com/yajanmehta
+                  github.com/yajan08
                   <span className="contact-link-icon">→</span>
                 </a>
               </div>
@@ -84,12 +84,12 @@ export default function ContactPage() {
               <div className="contact-card">
                 <span className="contact-label">Instagram</span>
                 <a
-                  href="https://instagram.com/nuvue"
+                  href="https://instagram.com/nuvue.clicks"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  instagram.com/nuvue
+                  instagram.com/nuvue.clicks
                   <span className="contact-link-icon">→</span>
                 </a>
               </div>
