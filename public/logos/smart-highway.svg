@@ -1,7 +1,9 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="18" y="18" width="220" height="220" rx="28" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="4"/>
-  <path d="M96 200 L128 64 L160 200" stroke="#1C1B1A" stroke-width="6" stroke-linecap="round"/>
-  <path d="M128 96 L128 168" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="128" cy="64" r="8" fill="#1C1B1A"/>
-  <text x="48" y="220" font-family="Playfair Display, serif" font-size="26" fill="#1C1B1A">SHS</text>
+  <path d="M96 196 L116 70 H140 L160 196 Z" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <path d="M128 88 V180" stroke="#1C1B1A" stroke-width="5" stroke-dasharray="8 8"/>
+  <path d="M70 118 V170" stroke="#1C1B1A" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="70" cy="108" r="8" fill="#D94838"/>
+  <path d="M186 118 V170" stroke="#1C1B1A" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="186" cy="108" r="8" fill="#D94838"/>
 </svg>

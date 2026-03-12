@@ -1,7 +1,9 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="18" y="18" width="220" height="220" rx="28" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="4"/>
-  <rect x="72" y="84" width="112" height="112" rx="18" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="4"/>
-  <path d="M96 120 H160" stroke="#1C1B1A" stroke-width="6" stroke-linecap="round"/>
-  <path d="M96 152 H144" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
-  <text x="66" y="210" font-family="Playfair Display, serif" font-size="28" fill="#1C1B1A">INV</text>
+  <rect x="70" y="72" width="56" height="56" rx="10" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <rect x="130" y="88" width="56" height="56" rx="10" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <rect x="90" y="136" width="56" height="56" rx="10" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <rect x="86" y="88" width="12" height="12" rx="3" fill="#D94838"/>
+  <rect x="146" y="104" width="12" height="12" rx="3" fill="#D94838"/>
+  <rect x="106" y="152" width="12" height="12" rx="3" fill="#D94838"/>
 </svg>

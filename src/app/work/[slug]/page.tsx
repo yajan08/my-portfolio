@@ -1,6 +1,7 @@
 import { projects } from "@/data/projects";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import VideoDemo from "@/components/VideoDemo";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -13,8 +14,6 @@ export default async function ProjectPage({ params }: PageProps) {
   if (!project) {
     notFound();
   }
-
-  const isPortrait = project.videoOrientation === "portrait";
 
   return (
     <article className="w-full max-w-4xl mx-auto space-y-12 py-12">
@@ -38,12 +37,11 @@ export default async function ProjectPage({ params }: PageProps) {
       {project.videoUrl && (
         <section className="space-y-4" data-reveal>
           <h2 className="section-title">Demo Video</h2>
-          <div className={isPortrait ? "video-portrait" : "video-landscape"}>
-            <video controls playsInline className="w-full h-full object-contain">
-              <source src={project.videoUrl} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+          <VideoDemo
+            videoUrl={project.videoUrl}
+            title={project.title}
+            orientation={project.videoOrientation ?? "landscape"}
+          />
         </section>
       )}
 

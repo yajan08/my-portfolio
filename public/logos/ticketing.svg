@@ -1,8 +1,8 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="18" y="18" width="220" height="220" rx="28" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="4"/>
-  <rect x="64" y="96" width="128" height="64" rx="14" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="4"/>
-  <path d="M88 128 H168" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="80" cy="128" r="6" fill="#1C1B1A"/>
-  <circle cx="176" cy="128" r="6" fill="#1C1B1A"/>
-  <text x="64" y="188" font-family="Playfair Display, serif" font-size="32" fill="#1C1B1A">CTS</text>
+  <rect x="64" y="84" width="128" height="88" rx="18" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <circle cx="64" cy="128" r="10" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="6"/>
+  <circle cx="192" cy="128" r="10" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="6"/>
+  <line x1="128" y1="96" x2="128" y2="160" stroke="#1C1B1A" stroke-width="5" stroke-dasharray="6 8"/>
+  <circle cx="156" cy="128" r="8" fill="#D94838"/>
 </svg>

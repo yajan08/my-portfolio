@@ -1,7 +1,8 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="18" y="18" width="220" height="220" rx="28" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="4"/>
-  <path d="M72 120 L128 88 L184 120 L128 152 Z" stroke="#1C1B1A" stroke-width="4" fill="#FFFFFF"/>
-  <path d="M96 148 V172" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
-  <path d="M160 148 V172" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
-  <text x="54" y="210" font-family="Playfair Display, serif" font-size="28" fill="#1C1B1A">CLUB</text>
+  <circle cx="128" cy="94" r="20" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <circle cx="94" cy="120" r="16" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <circle cx="162" cy="120" r="16" fill="#FFFFFF" stroke="#1C1B1A" stroke-width="6"/>
+  <path d="M72 176 C90 154 110 148 128 148 C146 148 166 154 184 176" stroke="#1C1B1A" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="128" cy="94" r="8" fill="#D94838"/>
 </svg>

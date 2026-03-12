@@ -14,63 +14,63 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: "stringsensei",
-    title: "StringSensei — Accessible Guitar Learning App",
-    shortDescription: "Inclusive guitar learning for visually impaired musicians.",
+    title: "StringSensei — Audio-First Guitar Coach",
+    shortDescription: "Tactile, audio-led practice for visually impaired players.",
     description:
-      "StringSensei turns music practice into an accessible, audio-first learning journey, using cues and structure to build confidence and independence.",
-    impact: "Inclusive guitar learning experience designed for visually impaired musicians.",
+      "StringSensei turns practice into an audio-first, step-by-step journey that builds confidence and independence.",
+    impact: "Inclusive guitar coaching that prioritizes accessibility and steady progress.",
     techStack: ["Swift", "SwiftUI", "UIKit"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/stringsensei.svg",
-    videoUrl: "/videos/stringSenseiDemo.mp4",
+    videoUrl: "https://ik.imagekit.io/x0rci4g0k/stringSenseiDemo.mp4",
     videoOrientation: "landscape"
   },
   {
     slug: "lingolens",
-    title: "LingoLens — Language Learning Game",
-    shortDescription: "Context-first vocabulary built from the real world.",
+    title: "LingoLens — Contextual Language Learning",
+    shortDescription: "Real-world vocabulary through the camera lens.",
     description:
-      "LingoLens uses the camera to anchor vocabulary in everyday life, helping learners speak with confidence and context instead of memorized phrases.",
-    impact: "Context-based language learning for students, self-learners, and travelers.",
+      "LingoLens anchors words in everyday scenes so learners speak with context, not memorized lists.",
+    impact: "Helps students and travelers build confidence with contextual vocabulary.",
     techStack: ["Swift", "SwiftUI", "Apple Foundation Models", "Vision framework"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/lingolens.svg",
-    videoUrl: "/videos/lingoLensApp.mp4",
+    videoUrl: "https://ik.imagekit.io/x0rci4g0k/lingoLensAppDemo.mp4",
     videoOrientation: "portrait"
   },
   {
     slug: "custom-ticketing-system",
     title: "Custom Business Ticketing System",
-    shortDescription: "Real-time repair workflow tracking and control.",
+    shortDescription: "Repair jobs tracked end-to-end in real time.",
     description:
-      "A tailored system for repair teams to track jobs, update status, and generate reports without spreadsheet chaos.",
-    impact: "Automated manual workflows with real-time tracking and admin control.",
+      "A tailored workflow for repair teams to log jobs, update status, and generate reports without spreadsheet chaos.",
+    impact: "Reduced manual coordination with live tracking and admin visibility.",
     techStack: ["Flutter", "PocketBase"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/ticketing.svg",
-    videoUrl: "/videos/ticketingToolDemo.mp4",
+    videoUrl: "https://ik.imagekit.io/x0rci4g0k/ticketingToolDemo.mp4",
     videoOrientation: "landscape"
   },
   {
     slug: "inventory-management",
     title: "Inventory Management App",
-    shortDescription: "Multi-user stock tracking with live updates.",
+    shortDescription: "Shared stock control with live accuracy.",
     description:
-      "Built to keep inventory accurate and shared across teams with real-time updates and clean records.",
-    impact: "Improved inventory accuracy and operational speed for a small business.",
+      "Designed to keep inventory precise across teams with real-time sync and clean, audit-ready records.",
+    impact: "Boosted inventory accuracy and day-to-day operational speed.",
     techStack: ["Flutter", "Firebase"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/inventory.svg",
-    videoUrl: "/videos/inventoryManagementDemo.mp4",
+    videoUrl: "https://ik.imagekit.io/x0rci4g0k/inventoryManagementDemo.mp4",
     videoOrientation: "landscape"
   },
   {
     slug: "smart-highway",
-    title: "Smart Highway Street Light Management System",
-    shortDescription: "Microcontroller-based adaptive lighting research.",
+    title: "Smart Highway Lighting Control System",
+    shortDescription: "Adaptive street lighting via microcontroller research.",
     description:
-      "A research build exploring sensor-led street light control to reduce energy waste.",
-    impact: "Demonstrated adaptive lighting logic using an 8051 microcontroller.",
+      "A research prototype exploring sensor-driven street light control to reduce wasted energy.",
+    impact: "Proved adaptive lighting logic on an 8051 microcontroller.",
     techStack: ["8051 Microcontroller"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/smart-highway.svg"
@@ -78,10 +78,10 @@ export const projects: Project[] = [
   {
     slug: "realtime-chat",
     title: "Real-time Chat App",
-    shortDescription: "Low-latency messaging with state discipline.",
+    shortDescription: "Responsive messaging with clean state updates.",
     description:
-      "A real-time chat experience built to test socket handling and smooth state updates.",
-    impact: "Validated real-time data flow and responsive UI updates.",
+      "A real-time chat build that stress-tested sockets and smooth state handling.",
+    impact: "Confirmed low-latency data flow and responsive UI behavior.",
     techStack: ["Flutter"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/realtime-chat.svg"
@@ -89,10 +89,10 @@ export const projects: Project[] = [
   {
     slug: "student-club",
     title: "Student Club Management System",
-    shortDescription: "Membership and event tracking in C++.",
+    shortDescription: "C++ desktop tool for memberships and events.",
     description:
-      "A desktop tool for organizing student club members, events, and participation history.",
-    impact: "Simplified student organization management and event tracking.",
+      "A desktop app to manage members, events, and participation history.",
+    impact: "Streamlined student organization tracking and reporting.",
     techStack: ["C++"],
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/student-club.svg"

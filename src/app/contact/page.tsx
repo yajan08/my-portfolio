@@ -84,7 +84,7 @@ export default function ContactPage() {
               <div className="contact-card">
                 <span className="contact-label">Instagram</span>
                 <a
-                  href="https://instagram.com/nuvue.clicks"
+                  href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-value"

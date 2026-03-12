@@ -19,7 +19,7 @@ export default function WorkPage() {
             Selected Works
           </h1>
           <p className="text-lg text-[var(--color-ink-light)] font-light max-w-2xl leading-relaxed">
-            A focused set of builds shaped by clarity, inclusion, and real-world constraints.
+            A focused set of builds shaped by clarity, inclusion, and real-world pressure.
           </p>
         </header>
 

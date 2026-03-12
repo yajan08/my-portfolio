@@ -5,10 +5,12 @@ import { useState } from "react";
 interface VideoDemoProps {
   videoUrl: string;
   title: string;
+  orientation?: "portrait" | "landscape";
 }
 
-export default function VideoDemo({ videoUrl, title }: VideoDemoProps) {
+export default function VideoDemo({ videoUrl, title, orientation = "landscape" }: VideoDemoProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const containerClass = orientation === "portrait" ? "video-portrait" : "video-landscape";
 
   return (
     <div className="space-y-4">
@@ -24,7 +26,10 @@ export default function VideoDemo({ videoUrl, title }: VideoDemoProps) {
       </button>
 
       {isOpen && (
-        <div id="video-demo" className="relative aspect-video w-full bg-[#1A1A1A] border border-[var(--color-ink-light)]/20 shadow-layered">
+        <div
+          id="video-demo"
+          className={`relative ${containerClass} bg-[#1A1A1A] border border-[var(--color-ink-light)]/20 shadow-layered`}
+        >
           <video
             autoPlay
             loop

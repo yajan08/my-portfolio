@@ -9,7 +9,7 @@ export default function Home() {
             Yajan Mehta
           </h1>
           <p className="text-lg md:text-xl text-[var(--color-ink-light)] font-light leading-relaxed max-w-xl mx-auto">
-            I build thoughtful apps that turn real-world problems into simple, inclusive digital experiences.
+            I design and build friendly apps that turn real-world needs into calm, inclusive experiences.
           </p>
         </div>
 
@@ -18,14 +18,14 @@ export default function Home() {
             href="/work"
             className="btn-primary"
           >
-            My Work
+            View Work
           </Link>
 
           <Link
             href="/contact"
             className="btn-ghost"
           >
-            Contact Me
+            Let's Talk
           </Link>
         </div>
       </main>
