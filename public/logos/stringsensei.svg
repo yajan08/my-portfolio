@@ -1,0 +1,6 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="18" width="220" height="220" rx="28" fill="#F8F7F4" stroke="#1C1B1A" stroke-width="4"/>
+  <path d="M64 168 C88 136, 120 120, 160 112" stroke="#D94838" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="176" cy="96" r="10" fill="#1C1B1A"/>
+  <text x="56" y="126" font-family="Playfair Display, serif" font-size="48" fill="#1C1B1A">SS</text>
+</svg>
