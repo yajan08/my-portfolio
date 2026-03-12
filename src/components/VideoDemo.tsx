@@ -31,12 +31,11 @@ export default function VideoDemo({ videoUrl, title, orientation = "landscape" }
           className={`relative ${containerClass} bg-[#1A1A1A] border border-[var(--color-ink-light)]/20 shadow-layered`}
         >
           <video
-            autoPlay
-            loop
             muted
             playsInline
             controls
-            className="w-full h-full object-cover"
+            preload="metadata"
+            className="w-full h-full object-contain"
           >
             <source src={videoUrl} type="video/mp4" />
             {`Your browser does not support the video for ${title}.`}

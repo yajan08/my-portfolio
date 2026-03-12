@@ -23,12 +23,12 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/stringsensei.svg",
     videoUrl: "https://ik.imagekit.io/x0rci4g0k/stringSenseiDemo.mp4",
-    videoOrientation: "landscape"
+    videoOrientation: "portrait"
   },
   {
     slug: "lingolens",
-    title: "LingoLens — Contextual Language Learning",
-    shortDescription: "Real-world vocabulary through the camera lens.",
+    title: "LingoLens — Camera Vocabulary Game",
+    shortDescription: "Context-first vocabulary from real-world scenes.",
     description:
       "LingoLens anchors words in everyday scenes so learners speak with context, not memorized lists.",
     impact: "Helps students and travelers build confidence with contextual vocabulary.",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/ticketing.svg",
     videoUrl: "https://ik.imagekit.io/x0rci4g0k/ticketingToolDemo.mp4",
-    videoOrientation: "landscape"
+    videoOrientation: "portrait"
   },
   {
     slug: "inventory-management",
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/yajanmehta",
     imageUrl: "/logos/inventory.svg",
     videoUrl: "https://ik.imagekit.io/x0rci4g0k/inventoryManagementDemo.mp4",
-    videoOrientation: "landscape"
+    videoOrientation: "portrait"
   },
   {
     slug: "smart-highway",

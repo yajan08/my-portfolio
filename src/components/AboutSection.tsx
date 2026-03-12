@@ -6,18 +6,18 @@ export default function AboutSection() {
           About
         </h2>
         <p className="text-2xl font-serif text-[var(--color-ink)] tracking-tight">
-          A calm builder who turns messy problems into helpful products.
+          I help businesses reach their true potential with software that ships.
         </p>
       </header>
       <div className="space-y-4 text-[var(--color-ink-light)] leading-relaxed">
         <p>
-          I build real-world apps that feel simple, reliable, and human, with the polish teams expect in production.
+          I build business software that is clean, reliable, and easy to adopt, so teams move faster without extra overhead.
         </p>
         <p>
-          Teams hire me when they need someone who can move from idea to shipped product, communicate clearly, and sweat the details.
+          I am experienced in leading projects, aligning stakeholders, and delivering products that match client goals and timelines.
         </p>
         <p>
-          I focus on accessibility, scalable foundations, and measurable outcomes, so your users feel cared for and your roadmap moves faster.
+          I care about accessibility, scalable foundations, and measurable outcomes so your users feel supported and your roadmap stays on track.
         </p>
       </div>
     </section>

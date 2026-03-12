@@ -8,8 +8,11 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl font-serif text-[var(--color-ink)] tracking-tight">
             Yajan Mehta
           </h1>
+          <p className="text-xs uppercase tracking-[0.45em] text-[var(--color-ink-light)]">
+            App Developer
+          </p>
           <p className="text-lg md:text-xl text-[var(--color-ink-light)] font-light leading-relaxed max-w-xl mx-auto">
-            I design and build friendly apps that turn real-world needs into calm, inclusive experiences.
+            I design and build business-ready apps that turn real-world needs into calm, inclusive experiences.
           </p>
         </div>
 
