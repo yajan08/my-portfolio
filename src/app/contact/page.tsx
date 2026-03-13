@@ -19,7 +19,7 @@ export default function ContactPage() {
         href="/"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
       >
-        <span className="transform group-hover:-translate-x-1 transition-transform">←</span>
+        <span className="transform group-hover:-translate-x-1 transition-transform">{"<-"}</span>
         Home
       </Link>
 
@@ -65,8 +65,8 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  github.com/yajan08
-                  <span className="contact-link-icon">→</span>
+                  GitHub
+                  <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
               <div className="contact-card">
@@ -77,8 +77,8 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  linkedin.com
-                  <span className="contact-link-icon">→</span>
+                  LinkedIn
+                  <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
               <div className="contact-card">
@@ -89,8 +89,8 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  instagram.com/nuvue.clicks
-                  <span className="contact-link-icon">→</span>
+                  Instagram
+                  <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Sora } from "next/font/google";
+import { Playfair_Display, Sora, Shadows_Into_Light } from "next/font/google";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import "./globals.css";
 
@@ -11,6 +11,12 @@ const sora = Sora({
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+});
+
+const shadowsIntoLight = Shadows_Into_Light({
+  variable: "--font-name",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${sora.variable} ${playfair.variable} antialiased min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]`}
+        className={`${sora.variable} ${playfair.variable} ${shadowsIntoLight.variable} antialiased min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]`}
       >
         <RevealOnScroll />
         <main className="flex-grow flex flex-col max-w-5xl mx-auto w-full px-6 py-12">

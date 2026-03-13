@@ -6,18 +6,18 @@ export default function AboutSection() {
           About
         </h2>
         <p className="text-2xl font-serif text-[var(--color-ink)] tracking-tight">
-          I help businesses reach their true potential with software that ships.
+          App developer focused on inclusive, scalable, real-world mobile applications.
         </p>
       </header>
       <div className="space-y-4 text-[var(--color-ink-light)] leading-relaxed">
         <p>
-          I build business software that is clean, reliable, and easy to adopt, so teams move faster without extra overhead.
+          I translate complex requirements into clear, steady experiences that feel calm and deliberate.
         </p>
         <p>
-          I am experienced in leading projects, aligning stakeholders, and delivering products that match client goals and timelines.
+          My builds favor durable architecture, transparent data flows, and small touches of craft that make teams feel confident.
         </p>
         <p>
-          I care about accessibility, scalable foundations, and measurable outcomes so your users feel supported and your roadmap stays on track.
+          Accessibility and measurable outcomes stay central, so each release is useful, stable, and ready for real users.
         </p>
       </div>
     </section>

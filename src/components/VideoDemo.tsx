@@ -22,7 +22,7 @@ export default function VideoDemo({ videoUrl, title, orientation = "landscape" }
         aria-controls="video-demo"
       >
         {isOpen ? "Hide video demo" : "See video demo"}
-        <span className="text-base">→</span>
+        <span className="text-base">{"->"}</span>
       </button>
 
       {isOpen && (

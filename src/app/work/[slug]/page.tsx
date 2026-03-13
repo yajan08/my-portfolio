@@ -21,7 +21,7 @@ export default async function ProjectPage({ params }: PageProps) {
         href="/work"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
       >
-        <span className="transform group-hover:-translate-x-1 transition-transform">←</span>
+        <span className="transform group-hover:-translate-x-1 transition-transform">{"<-"}</span>
         All Work
       </Link>
 
@@ -71,15 +71,17 @@ export default async function ProjectPage({ params }: PageProps) {
       </section>
 
       <section className="space-y-4" data-reveal>
-        <h2 className="section-title">GitHub</h2>
+        <h2 className="section-title">
+          {project.slug === "smart-highway" ? "Paper" : "GitHub"}
+        </h2>
         <a
           href={project.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors"
         >
-          View Source Code
-          <span>→</span>
+          {project.slug === "smart-highway" ? "Read Paper" : "View Source Code"}
+          <span>{"->"}</span>
         </a>
       </section>
     </article>

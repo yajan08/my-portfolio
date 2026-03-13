@@ -9,7 +9,7 @@ export default function WorkPage() {
         href="/"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
       >
-        <span className="transform group-hover:-translate-x-1 transition-transform">←</span>
+        <span className="transform group-hover:-translate-x-1 transition-transform">{"<-"}</span>
         Home
       </Link>
 
@@ -19,7 +19,7 @@ export default function WorkPage() {
             Selected Works
           </h1>
           <p className="text-lg text-[var(--color-ink-light)] font-light max-w-2xl leading-relaxed">
-            A focused set of builds shaped by clarity, inclusion, and real-world pressure.
+            Practical systems, refined execution, and outcomes you can point to.
           </p>
         </header>
 
