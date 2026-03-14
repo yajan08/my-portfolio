@@ -296,3 +296,80 @@ a, button {
   50% { transform: translate3d(-2%, 2%, 0) scale(1.02); }
   100% { transform: translate3d(2%, -2%, 0) scale(1); }
 }
+
+@media (max-width: 640px) {
+  body {
+    background-size: 170% 170%, 170% 170%, 100% 100%;
+  }
+
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-title::after {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(200, 77, 58, 0.85), transparent);
+  }
+
+  .btn-primary,
+  .btn-ghost {
+    width: 100%;
+    max-width: 18rem;
+    text-align: center;
+    border-radius: 999px;
+    letter-spacing: 0.16em;
+  }
+
+  .surface {
+    padding: 20px;
+  }
+
+  .project-card {
+    height: auto;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .project-thumb {
+    width: 46px;
+    height: 46px;
+  }
+
+  .project-title {
+    font-size: 0.95rem;
+  }
+
+  .project-summary {
+    font-size: 0.85rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .tag {
+    font-size: 0.6rem;
+    letter-spacing: 0.16em;
+  }
+
+  .contact-card {
+    padding: 14px;
+  }
+
+  .contact-label,
+  .form-label {
+    letter-spacing: 0.24em;
+  }
+}

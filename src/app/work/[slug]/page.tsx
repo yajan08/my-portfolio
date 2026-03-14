@@ -16,7 +16,7 @@ export default async function ProjectPage({ params }: PageProps) {
   }
 
   return (
-    <article className="w-full max-w-4xl mx-auto space-y-12 py-12">
+    <article className="w-full max-w-4xl mx-auto space-y-10 sm:space-y-12 py-10 sm:py-12">
       <Link
         href="/work"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
@@ -26,10 +26,10 @@ export default async function ProjectPage({ params }: PageProps) {
       </Link>
 
       <header className="space-y-4" data-reveal>
-        <h1 className="text-5xl md:text-6xl font-serif text-[var(--color-ink)] tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif text-[var(--color-ink)] tracking-tight">
           {project.title}
         </h1>
-        <p className="text-lg text-[var(--color-ink-light)] font-light leading-relaxed max-w-2xl">
+        <p className="text-base sm:text-lg text-[var(--color-ink-light)] font-light leading-relaxed max-w-2xl">
           {project.description}
         </p>
       </header>

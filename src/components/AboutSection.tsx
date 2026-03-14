@@ -5,7 +5,7 @@ export default function AboutSection() {
         <h2 className="text-sm tracking-[0.4em] uppercase text-[var(--color-ink-light)]">
           About
         </h2>
-        <p className="text-2xl font-serif text-[var(--color-ink)] tracking-tight">
+        <p className="text-xl sm:text-2xl font-serif text-[var(--color-ink)] tracking-tight">
           App developer focused on inclusive, scalable, real-world mobile applications.
         </p>
       </header>

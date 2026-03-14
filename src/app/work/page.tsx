@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function WorkPage() {
   return (
-    <div className="w-full max-w-5xl mx-auto space-y-16 py-12">
+    <div className="w-full max-w-5xl mx-auto space-y-12 sm:space-y-16 py-10 sm:py-12">
       <Link
         href="/"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
@@ -15,10 +15,10 @@ export default function WorkPage() {
 
       <section className="space-y-6" data-reveal>
         <header className="space-y-3">
-          <h1 className="text-5xl font-serif text-[var(--color-ink)] tracking-tight">
+          <h1 className="text-4xl sm:text-5xl font-serif text-[var(--color-ink)] tracking-tight">
             Selected Works
           </h1>
-          <p className="text-lg text-[var(--color-ink-light)] font-light max-w-2xl leading-relaxed">
+          <p className="text-base sm:text-lg text-[var(--color-ink-light)] font-light max-w-2xl leading-relaxed">
             Practical systems, refined execution, and outcomes you can point to.
           </p>
         </header>

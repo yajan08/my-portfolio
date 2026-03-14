@@ -14,7 +14,7 @@ const interests = [
 
 export default function ContactPage() {
   return (
-    <div className="w-full max-w-5xl mx-auto py-10 space-y-14">
+    <div className="w-full max-w-5xl mx-auto py-8 sm:py-10 space-y-12 sm:space-y-14">
       <Link
         href="/"
         className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
@@ -23,7 +23,7 @@ export default function ContactPage() {
         Home
       </Link>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
         <div className="space-y-10">
           <AboutSection />
 

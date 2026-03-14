@@ -35,7 +35,7 @@ export default function RootLayout({
         className={`${sora.variable} ${playfair.variable} ${shadowsIntoLight.variable} antialiased min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]`}
       >
         <RevealOnScroll />
-        <main className="flex-grow flex flex-col max-w-5xl mx-auto w-full px-6 py-12">
+        <main className="flex-grow flex flex-col max-w-5xl mx-auto w-full px-4 sm:px-6 py-10 sm:py-12">
           {children}
         </main>
       </body>
