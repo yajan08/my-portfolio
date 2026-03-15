@@ -72,7 +72,7 @@ export default function ContactPage() {
               <div className="contact-card">
                 <span className="contact-label">LinkedIn</span>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/yajan-mehta-9220442b2/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-value"
@@ -84,7 +84,7 @@ export default function ContactPage() {
               <div className="contact-card">
                 <span className="contact-label">Instagram</span>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/nuvue.clicks"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-value"
