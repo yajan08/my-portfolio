@@ -17,7 +17,7 @@ export default function ContactPage() {
     <div className="w-full max-w-5xl mx-auto py-8 sm:py-10 space-y-12 sm:space-y-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-[var(--color-ink-light)] hover:text-[var(--color-muted-orange)] transition-colors group"
+        className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-(--color-ink-light) hover:text-(--color-muted-orange) transition-colors group"
       >
         <span className="transform group-hover:-translate-x-1 transition-transform">{"<-"}</span>
         Home
@@ -28,7 +28,7 @@ export default function ContactPage() {
           <AboutSection />
 
           <section className="space-y-4" data-reveal>
-            <h2 className="text-sm tracking-[0.4em] uppercase text-[var(--color-ink-light)]">
+            <h2 className="text-sm tracking-[0.4em] uppercase text-(--color-ink-light)">
               Interests
             </h2>
             <div className="flex flex-wrap gap-2">
@@ -41,7 +41,7 @@ export default function ContactPage() {
           </section>
 
           <section className="space-y-4" data-reveal>
-            <h2 className="text-sm tracking-[0.4em] uppercase text-[var(--color-ink-light)]">
+            <h2 className="text-sm tracking-[0.4em] uppercase text-(--color-ink-light)">
               Contact
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -65,7 +65,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  GitHub
+                  yajan08
                   <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
@@ -77,7 +77,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  LinkedIn
+                  Yajan Mehta
                   <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="contact-value"
                 >
-                  Instagram
+                  @nuvue.clicks
                   <span className="contact-link-icon">{"->"}</span>
                 </a>
               </div>
